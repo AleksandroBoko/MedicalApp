@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Hospital.Domain.Medicines
+{
+    class ConcreteMedicineAntiviral : IMedicine
+    {
+        public Medicine createMedicine()
+        {
+            return new Antiviral();
+        }
+    }
+}
